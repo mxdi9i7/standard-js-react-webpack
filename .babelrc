@@ -1,0 +1,19 @@
+{
+  "presets": [
+    [
+      "env",
+      {
+        "spec": true,
+        "useBuiltIns": false
+      }
+    ]
+  ],
+  "plugins": [
+    [
+      "transform-react-jsx",
+      {
+        "pragma": "Nerv.createElement"
+      }
+    ]
+  ]
+}

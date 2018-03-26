@@ -1,0 +1,55 @@
+{
+  "name": "@octaive/client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/octaive/client",
+  "author": "octaive developers",
+  "license": "N/A",
+  "scripts": {
+    "lint": "standard --fix",
+    "dev": "webpack-dev-server --config webpack.config.js --mode development --port 8888",
+    "dev:watch": "webpack-dev-server --config webpack.config.js --mode development --port 8888",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "prebuild": "rm -rf dist",
+    "build": "webpack -p --config webpack.config.js"
+  },
+  "dependencies": {
+    "nervjs": "^1.2.15"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-jest": "^22.4.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.4",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "next",
+    "html-webpack-plugin": "^3.0.7",
+    "husky": "next",
+    "jest": "^22.4.3",
+    "nerv-devtools": "^1.2.15",
+    "node-sass": "^4.7.2",
+    "react-test-renderer": "^16.2.0",
+    "regenerator-runtime": "^0.11.1",
+    "sass-loader": "^6.0.7",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1"
+  },
+  "standard": {
+    "ignore": [
+      "/tests",
+      "/dist"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn test",
+      "pre-push": "yarn lint"
+    }
+  }
+}
