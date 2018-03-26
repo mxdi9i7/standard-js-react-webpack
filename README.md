@@ -1,12 +1,12 @@
-# Octaive Web Chat Client
+# Client Starter for React Projects
 
-###### Embeddable web advertisement unit for the [the Botframework](https://dev.botframework.com/).
+###### Customizable standard project template for React projects
 
 ---
 
 ## Introduction
 
-Octaive chatbot client. The documentation has several parts each contains content related to a different audience. Check out the table of content to find the documentation that you're looking for.
+The documentation has several parts each contains content related to a different audience. Check out the table of content to find the documentation that you're looking for.
 
 ## I am a ...
 - [Frontend Developers](/docs/developers/README.md)

@@ -1,6 +1,6 @@
 # Developer Guide
 
-###### Documentation for chatbot client developers
+###### Documentation for developers
 ---
 
 
@@ -52,7 +52,7 @@ yarn test
 ```
 
 ### Test file location
-Most of the unit test files will be stored side by side to the code that's being tested so it's easier to locate and the import relative path can be relatively simpler. For example, instead of 
+Most of the unit test files will be stored side by side to the code that's being tested so it's easier to locate and the import relative path can be relatively simpler. For example, instead of
 ```
 import HelloComponent from '../../path/to/HelloComponent.js'
 ```

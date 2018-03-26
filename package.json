@@ -1,9 +1,9 @@
 {
-  "name": "@octaive/client",
+  "name": "react-project-template",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/octaive/client",
-  "author": "octaive developers",
+  "repository": "https://github.com/mxdi9i7/standard-js-react-webpack",
+  "author": "mxdi9i7",
   "license": "N/A",
   "scripts": {
     "lint": "standard --fix",
