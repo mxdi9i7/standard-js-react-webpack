@@ -12,7 +12,7 @@
     [
       "transform-react-jsx",
       {
-        "pragma": "Nerv.createElement"
+        "pragma": "React.createElement"
       }
     ]
   ]

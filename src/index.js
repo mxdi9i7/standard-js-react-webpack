@@ -1,8 +1,6 @@
-import Nerv from 'nervjs'
+import React from 'react'
+import ReactDOM from 'react-dom'
 import App from './App'
 
-if (process.env.NODE_ENV !== 'production') {
-  require('nerv-devtools')
-}
 
-Nerv.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'))

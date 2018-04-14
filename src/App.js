@@ -1,7 +1,7 @@
-import Nerv from 'nervjs'
+import React from 'react'
 import Hello from './Hello'
 
-export default class App extends Nerv.Component {
+export default class App extends React.Component {
   render () {
     return (
       <Hello />

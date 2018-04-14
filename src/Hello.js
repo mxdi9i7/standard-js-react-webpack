@@ -1,7 +1,7 @@
-import Nerv from 'nervjs'
+import React from 'react'
 import './Hello.scss'
 
-export default class Hello extends Nerv.Component {
+export default class Hello extends React.Component {
   constructor () {
     super(...arguments)
     this.state = {
